@@ -35,8 +35,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         passwordField = (EditText) findViewById(R.id.passwordField);
         registerText = (TextView) findViewById(R.id.registerText);
 
-        mAuth = FirebaseAuth.getInstance();+
+        mAuth = FirebaseAuth.getInstance();
 
+        loginButton.setOnClickListener(this);
     }
 
     @Override
@@ -57,10 +58,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         if (email.isEmpty()) {
             Toast.makeText(this, "Please enter your email", Toast.LENGTH_SHORT).show();
+            return;
         }
 
         if (password.isEmpty()) {
             Toast.makeText(this, "Please enter your password", Toast.LENGTH_SHORT).show();
+            return;
         }
 
         mAuth.createUserWithEmailAndPassword(email, password)
@@ -89,10 +92,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         if (email.isEmpty()) {
             Toast.makeText(this, "Please enter your email", Toast.LENGTH_SHORT).show();
+            return;
         }
 
         if (password.isEmpty()) {
             Toast.makeText(this, "Please enter your password", Toast.LENGTH_SHORT).show();
+            return;
         }
 
         mAuth.signInWithEmailAndPassword(email, password)
@@ -120,6 +125,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View view) {
         if (view == loginButton) {
             loginUser();
+            System.out.println("Button pressed");
         }
         else if (view == registerText) {
             // go to register page
