@@ -7,7 +7,7 @@
     tools:context="com.example.katai.activityrecognition.MainActivity">
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/passwordField"
         android:layout_width="278dp"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -17,7 +17,7 @@
         tools:layout_editor_absoluteY="285dp" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/emailField"
         android:layout_width="279dp"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -27,7 +27,7 @@
         tools:layout_editor_absoluteY="223dp" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/loginButton"
         android:layout_width="210dp"
         android:layout_height="wrap_content"
         android:text="Login"
@@ -35,12 +35,12 @@
         tools:layout_editor_absoluteY="354dp" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/registerText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Register Here"
-        android:onClick="onClick"
         android:clickable="true"
+        android:onClick="onClick"
+        android:text="Register Here"
         tools:layout_editor_absoluteX="150dp"
         tools:layout_editor_absoluteY="428dp" />
 </android.support.constraint.ConstraintLayout>
