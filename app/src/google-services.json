@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1059723455670",
+    "firebase_url": "https://activitymonitor-e01ef.firebaseio.com",
+    "project_id": "activitymonitor-e01ef",
+    "storage_bucket": "activitymonitor-e01ef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1059723455670:android:bd734f6b64edc9c4",
+        "android_client_info": {
+          "package_name": "com.example.katai.activityrecognition"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1059723455670-1fsel14dclsllov12ke4e6ici1afbvro.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHIP4PFTL9bvR68DKQJf7N1nedd-UuLqQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
