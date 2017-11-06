@@ -25,6 +25,7 @@
             android:ems="10"
             android:hint="Email:"
             android:inputType="textEmailAddress"
+            android:text="kataihoo@gmail.com"
             tools:layout_editor_absoluteX="53dp"
             tools:layout_editor_absoluteY="223dp" />
 
@@ -35,6 +36,7 @@
             android:ems="10"
             android:hint="Password:"
             android:inputType="textPassword"
+            android:text="test1234"
             tools:layout_editor_absoluteX="53dp"
             tools:layout_editor_absoluteY="285dp" />
 
